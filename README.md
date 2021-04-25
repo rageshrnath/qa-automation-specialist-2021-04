@@ -88,3 +88,13 @@ can be run with:
 ```sh
 yarn test
 ```
+
+## Running automated version of test plan
+Test plan is automated using Cypres. Cypress is integrated using the command npm install cypress.
+Tests written in cypress are under root/e2e/integration folder with the name functional_tests.spec.js.
+Cypress tests can be  run using the script:
+
+```sh
+npm run cypress
+```
+This will launch the Cypress default window and the automated tests can be invoked by clicking on functional_tests.spec.js
