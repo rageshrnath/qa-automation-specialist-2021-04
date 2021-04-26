@@ -1,0 +1,6 @@
+Recommendations:
+1. The validation functions take leading and trailing white spaces into consideration.
+   Here trim() method could be used to remove these unwanted spaces and there by considering only the required characters in string length count.
+   I have Commented out the implementation of trim() method in maxLength.js and minLength.js files
+2. I would like to suggest the implementation of APIs for Add and Remove functions. From an automation perspective, the API integration can then be validated using tools like SoapUI/ReadyAPI/Postman
+ 
